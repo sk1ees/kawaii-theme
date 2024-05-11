@@ -1,6 +1,10 @@
 # kawaii-theme
 a rounded, minimalistic, simple kawaii theme.
 
+```diff
+@@ only server-screen has been customized for now! @@
+@@ setting-screen,friends-screen,etc will be updated soon, and if you want feel free to contribute.@@
+``` 
 ![Blue Purple Cheeky Kawaii Manga Tutor Educational Twitter Header](https://github.com/notDeep7/kawaii-theme/assets/144143057/d4323c4d-2359-407e-aae9-ffd77c6c03de)
 
 # Kawaii Discord Theme
