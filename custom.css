@@ -1,0 +1,523 @@
+
+:root{
+
+
+    --primary-color :linear-gradient(rgba(229,228,255),rgb(159, 45, 253));
+    --secondary-color: rgb(207, 149, 255);
+    --tertiary-color:rgba(226, 238, 255, 0.533);
+    --pastel-color:rgba(255, 255, 227, 0.342);
+    --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.143), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     --dark-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.318), 0 6px 20px 0 rgba(0, 0, 0, 0.441);
+    --font-dark-color: black;
+    --background-image: url('https://i.pinimg.com/originals/aa/6a/0e/aa6a0e9ecb4be2a2881d976eb70d4216.jpg');
+
+   --purple-color: rgb(150, 0, 250);
+
+}
+
+#app-mount .bg__12180{
+    background: var(--background-image);
+  background-position: var(--background-image-position, center);
+  background-size: var(--background-image-size, cover);
+}
+
+
+/* THEME CSS  */
+
+/* ------------------------------------------> */
+.theme-dark{
+border-radius: 2vw;
+--background-primary: transparent;
+  
+ 
+  --background-tertiary:  rgb(255, 248, 201);
+ 
+  --background-floating: black;
+ 
+  --background-modifier-hover: rgb(255, 255, 255, 0.05);
+  --background-modifier-active: rgb(255, 255, 255, 0.07);
+  --background-modifier-selected: rgb(255, 255, 255, 0.1);
+  --channel-icon: rgb(141, 56, 0);
+}
+
+.theme-dark .themed_b152d4{
+    border: 0.2vw solid wheat;
+    background: rgb(216, 131, 255);
+    border-radius: 1vw;
+  width: 60vw;
+  box-shadow: var(--dark-shadow);
+  
+  
+  
+}
+.subtitleContainer_f50402{
+    align-items: center;
+    
+    margin-left: -14vw;
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+}
+.overlayBackground__345c9{
+    border-radius: 1.5vw;
+}
+/* note */
+.textarea__0461c{
+    border-radius: 0.7vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    background-color: var(--tertiary-color);
+    font-size: 1vw;    
+}
+
+.role_d81130{
+    border-radius: 2vw;
+    background-color: rgba(255, 255, 255, 0.171);
+     box-shadow: var(--shadow);
+   
+}
+.roleNameOverflow__27401{
+   text-transform: lowercase;
+   color: var(--font-dark-color);
+   font-weight: bold;
+    
+}
+.nickname_db3773{
+    color: var(--font-dark-color);
+}
+.messageInputContainer_a93946{
+     border-radius: 2vw;
+}
+.usernameSection_dd6196, .customStatusSection_c9f9ba{
+    padding-left: 1.4vw;
+}
+
+.userTagUsernameBase__2bd24{
+    color: rgb(88, 86, 86);
+}
+
+.profileBadges__1f2ab.profileBadges__1f2ab{
+      border-radius: 2vw;
+     
+}
+.container__26baa *{
+    color: rgb(255, 220, 226);
+}
+
+.bannerSVGWrapper__8a38c{
+    background-color: rgb(255, 220, 226);
+}
+.overlayBackground__345c9{
+    background-color: var(--secondary-color);
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.lookFilled__950dd.colorPrimary_ebe632{
+      border-radius: 2vw;
+      padding: 0.4vw;
+}
+.banner__6d414.popoutBanner__3fbe8{
+
+    background:linear-gradient(rgb(217, 91, 255),rgba(185, 64, 255, 0.451)) !important;
+    
+}
+.userProfileInnerThemedNonPremium_b64fb4{
+    background: var(--primary-color);
+    
+}
+.text-sm-normal__95a78{
+    color: var(--font-dark-color);
+}
+.label__563c3 {
+    
+    font-weight: bold;
+}
+.itemizedListText_a6446d{
+    color: var(--font-dark-color) !important;
+}
+.discordIcon__1e1be{
+    color: var(--font-dark-color);
+}
+.defaultColor__8610e{
+    color: var(--font-dark-color);
+}
+.colorDefault_e361cf{
+    color: var(--font-dark-color);
+}
+/* //background  */
+.bg__12180{
+    background: var(--primary-color);
+}
+.wrapper__216eb{
+    background: none;
+}
+/* sidebar */
+.container__7e23c{
+    background: none;
+    border: 5px solid var(--tertiary-color);
+    border-radius: 1.5vw;
+    margin: 0.4vw;
+    box-shadow: var(--dark-shadow);
+}
+.content__76dcf{
+    background: none;
+    
+}
+
+.sidebar_e031be{
+    background: none;
+   
+}
+.theme-dark .container__7e23c{
+    background: none;
+    
+}
+.name__4eb92{
+    color: black;
+   
+    font-weight: 700;
+}
+.overflow__993fa {
+    color: black;
+    text-transform: lowercase;
+    
+}
+
+/* channels */
+
+.containerDefault_e3b32b, .containerDragBefore__1b24b, .containerDragAfter_e03e10, .containerUserOver__91b97{
+    
+    border-radius: 0.5vw;
+    text-align: center;
+   padding: 0vw;
+  margin-top: 10px;
+   background-color: rgb(255, 147, 147);
+   margin-left: 0.5vw;
+   width: 11vw;
+
+}
+
+.wrapper__612a5{
+    background: rgb(255, 214, 214);
+    border-radius: 0.5vw;
+    margin-bottom: 9px;
+    margin-right: 10px;
+    margin-top: 9px;
+    box-shadow: var(--shadow);
+    border: 5.2px solid white;
+}
+.panels__58331{
+    background: none;
+}
+/* down profile */
+.app_de4237 button{
+    color: rgb(255, 0, 200);
+}
+.lottieIcon_c7076c :not(defs *)[fill][fill-opacity]{
+    fill: rgb(81, 0, 0);
+}
+.theme-dark .container_debb33{
+      background: rgb(216, 131, 255);
+   width: 13vw;
+    border-radius: 0.5vw;
+    margin: 0.5vw;
+    padding: 0vw 0vw;
+    border: 4px dashed wheat;
+    box-shadow: var(--dark-shadow);
+    
+}
+.title__4a7a9{
+    color: black;
+    font-weight: bold;
+}
+
+.default__74311, .hovered__5a165{
+    color: black;
+    font-weight: bolder;
+   
+    
+}
+
+/* guilds server */
+.expandedFolderBackground_b1385f {
+    background: rgba(132, 0, 255, 0.691);
+    box-shadow: var(--dark-shadow);
+  
+   
+}
+
+
+.expandedFolderIconWrapper__324c1 svg{
+    color: wheat !important;
+}
+
+.circleIconButton__05cf2{
+    color: wheat;
+    background-color: rgb(59, 59, 59);
+     
+}
+.childWrapperNoHoverBg__7e8f1{
+    background: rgb(150, 0, 250);
+    color: wheat;
+   
+}
+
+.svg__34dd4{
+    box-shadow: var(--dark-shadow);
+    border-radius: 50%;
+}
+/* .textbox */
+
+.inner__9fd0b{
+    background: var(--background-tertiary);
+    
+}
+#app-mount .form_d8a4a1 {
+  margin-top: 0;
+}
+#app-mount .form_d8a4a1 .attachButton__56f98 {
+  padding: 10px;
+}
+#app-mount .form_d8a4a1 .placeholder__443e5,
+#app-mount .form_d8a4a1 .slateTextArea_b19976 {
+  padding-left: 5px;
+}
+
+.themedBackground__3a4c0{
+    background: transparent;
+ border-radius: 0.5vw;
+    margin: 0.5vw;
+    padding: 0vw 0vw;
+    border: 4px dashed rgb(255, 179, 0);
+    box-shadow: var(--dark-shadow);
+}
+.active__6a892 {
+    margin-left: -5px;
+}
+/* body  */
+
+.scrollerContent__94ac9 {
+    background: none;
+}
+
+/* right-part */
+
+.members__573eb{
+    background-color: rgb(255, 147, 147);
+    border-top: 5px dashed rgb(116, 0, 161);
+    border-right: 5px dashed rgb(116, 0, 161);
+    border-left: 5px dashed rgb(116, 0, 161);
+    border-top-left-radius: 0.5vw;
+     border-top-right-radius: 0.5vw;
+    margin-top: 0.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    box-shadow: var(--dark-shadow);
+    
+    
+}
+.container_f79ab4{
+    background: none;
+    
+}
+.member_b44d5d{
+    background: rgb(255, 214, 214);
+    border-radius: 0.5vw;
+    border: 3px dashed rgb(1, 0, 2);
+    margin-bottom: 10px;
+    color: black;
+    
+}
+
+.membersGroup_cad095 {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+/* SODEBAR SETTING */
+.sidebarRegionScroller__8113e{
+    background: none;
+}
+.sidebar__02e8d{
+    background: rgb(255, 209, 217);
+    padding: 2vw;
+    
+    border: 4px dashed white;
+    border-radius: 1vw;
+    box-shadow: var(--dark-shadow) , var(--dark-shadow);
+}
+.eyebrow_b3f8ba{
+    color: black;
+    font-weight: bolder;
+
+}
+.side_b4b3f6 .item__48dda{
+    color: rgb(97, 97, 97);
+}
+
+/* Text Edits */
+
+.subtitle__8dcdc.noChildren_b775d8{
+    color: black !important;
+    font-weight: bolder;
+}
+.cozy_f5c119 .messageContent_abea64{
+    color: black;
+    font-weight: 700;
+   
+}
+
+.wrapper__53064{
+    background-color: rgb(92, 0, 0);
+   
+}
+
+.group-spacing-16 .groupStart__7b93c{
+   
+    border-radius: 1vw;
+    margin: 15px;
+    
+    
+}
+
+.cozy_f5c119 .timestamp_c79dd2{
+    color: black !important;
+    font-weight: bolder;
+}
+
+.username__0b0e7{
+    color: black !important;
+    font-weight: bolder;
+    font-size: 1.1vw;
+}
+.embed_cc6dae code{
+    color: black;
+    font-weight: 700;
+    background: rgb(255, 223, 228);
+}
+.goalText__38c12{
+    color: black !important;
+}
+.text-xs-normal__46d75{
+     color: black !important;
+     font-weight: bolder;
+}
+.container__26baa *{
+    color: rgb(86, 0, 0);
+}
+.fontSize16Padding_bcbeae{
+    color: rgb(86, 0, 0);
+    font-weight: bolder;
+}
+.buttonWrapper_bd4bd7 svg{
+    color: red !important;
+}
+
+.spriteGreyscale__750f4{
+    background-color: rgb(68, 0, 0) !important;
+}
+.optionLabel_a33d86{
+    color: wheat;
+}
+.scroller__8f066{
+    background-color:rgba(255, 246, 229, 0.67) !important;
+  
+}
+
+html,body{
+
+  cursor: url('https://cdn.custom-cursor.com/db/18620/32/color-pale-pink-cursor.png'),auto;
+
+
+}
+.privateChannels__9b518{
+    background: none;
+}
+.theme-dark .scroller__89969{
+    background: rgb(193, 179, 245)  ;
+    border: 5px solid wheat;
+    border-radius: 1vw;
+    box-shadow: var(--dark-shadow);
+    margin: 0.7vw;
+}
+.content_b5e449 {
+    color: rgb(68, 0, 0);
+    
+}
+.name_f842e4{
+    font-weight: bolder;
+    
+}
+
+.avatar__7bd22{
+    color: darkred;
+}
+.headerText__88997{
+    color: darkred;
+    font-weight: bolder;
+    
+}
+.nowPlayingColumn_b025fe{
+    background: none;
+    
+}
+
+.container__3673d{
+     background: rgb(193, 179, 245)  ;
+    border: 5px solid wheat;
+    border-radius: 1vw;
+    box-shadow: var(--dark-shadow);
+    margin: 0.7vw;
+}
+.scroller__7c25e{
+    border: none;
+    
+}
+
+.image__08515{
+    width: 30vw !important;
+    height: 15vw !important;
+    filter: drop-shadow(16px 16px 20px rgb(255, 244, 146));
+}
+
+.tabBar__73938 .item_e4ca95{
+    color: rgb(94, 0, 0);
+    font-weight: bolder;
+}
+.tabBar__73938 .addFriend__4c0a2.addFriend__4c0a2.addFriend__4c0a2{
+    background: lightgreen;
+    border: 3px dashed darkred;
+}
+.searchBar__621ec .searchBarComponent__8f95f{
+    color: darkred;
+    background-color: lightgreen;
+    font-weight: bolder;
+    border: 3px dashed darkred;
+}
+.medium__5b9a9 .input__48d49, .medium__5b9a9 .tag__3ba94{
+     color: darkred;
+    background-color: rgb(246, 255, 246);
+    font-weight: bolder;
+   
+}
+.username__267df{
+    color: black;
+    font-weight: bolder;
+}
+.text_bd79a3{
+    color: grey;
+    font-weight: bolder;
+}
+
+.actionButton__2b4bb{
+    background-color: darkred;
+   
+}
+.icon__4ee3f{
+    color: wheat;
+}
+
+.title_c42cad{
+    color: black;
+    font-weight: bolder;
+}
